@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: FrostyConTest-Sharawi
+  host: FrostyConTest-Sharawi
+  disk_quota: 1024M
+  services:
+  - FrostyConTest-Sharawi-cloudantNoSQLDB
+  - FrostyConTest-Sharawi-iotf-service
